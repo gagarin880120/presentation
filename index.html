@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>Open-source movement / ideology</h1>
+					<br>RSSchool-student Mandryk Andrei
+					<br>2019
+				</section>
+				<section><b>Open-source software (OSS)</b> is a type of computer software in which source code is released 
+					under a license in which the copyright holder grants users the rights to study, change,
+					 and distribute the software to anyone and for any purpose.</section>
+				<section>
+					<section>
+						<h1>History</h1>
+					</section>
+					<section>
+						In the early days of computing, programmers and developers shared software in order to learn from each other 
+						and evolve the field of computing. Eventually, the open-source notion moved to the way side of commercialization of software in the years 1970-1980.
+						 However, academics still often developed software collaboratively. For example Donald Knuth in 1979 with the TeX typesetting system or
+						 Richard Stallman in 1983 with the GNU operating system. 
+					</section>
+					<section>
+						In 1997, Eric Raymond published The Cathedral and the Bazaar, a reflective analysis of the hacker community and free-software principles. 
+						 The paper received significant attention in early 1998, and was one factor in motivating Netscape Communications Corporation to release their popular Netscape Communicator Internet suite as free software. 
+						 This source code subsequently became the basis behind SeaMonkey, Mozilla Firefox, Thunderbird and KompoZer.
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
